@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bookdataset" targetNamespace="http://tempuri.org/Bookdataset.xsd" xmlns:mstns="http://tempuri.org/Bookdataset.xsd" xmlns="http://tempuri.org/Bookdataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Bookdataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Bookdataset" msprop:Generator_UserDSName="Bookdataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Book_info" msprop:Generator_TableClassName="Book_infoDataTable" msprop:Generator_TableVarName="tableBook_info" msprop:Generator_TablePropName="Book_info" msprop:Generator_RowDeletingName="Book_infoRowDeleting" msprop:Generator_RowChangingName="Book_infoRowChanging" msprop:Generator_RowEvHandlerName="Book_infoRowChangeEventHandler" msprop:Generator_RowDeletedName="Book_infoRowDeleted" msprop:Generator_UserTableName="Book_info" msprop:Generator_RowChangedName="Book_infoRowChanged" msprop:Generator_RowEvArgName="Book_infoRowChangeEvent" msprop:Generator_RowClassName="Book_infoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Bookid" msprop:Generator_ColumnVarNameInTable="columnBookid" msprop:Generator_ColumnPropNameInRow="Bookid" msprop:Generator_ColumnPropNameInTable="BookidColumn" msprop:Generator_UserColumnName="Bookid" type="xs:string" minOccurs="0" />
+              <xs:element name="Bookname" msprop:Generator_ColumnVarNameInTable="columnBookname" msprop:Generator_ColumnPropNameInRow="Bookname" msprop:Generator_ColumnPropNameInTable="BooknameColumn" msprop:Generator_UserColumnName="Bookname" type="xs:string" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_UserColumnName="Price" type="xs:string" minOccurs="0" />
+              <xs:element name="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_UserColumnName="Category" type="xs:string" minOccurs="0" />
+              <xs:element name="Writername" msprop:Generator_ColumnVarNameInTable="columnWritername" msprop:Generator_ColumnPropNameInRow="Writername" msprop:Generator_ColumnPropNameInTable="WriternameColumn" msprop:Generator_UserColumnName="Writername" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact" msprop:Generator_ColumnVarNameInTable="columnContact" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnPropNameInTable="ContactColumn" msprop:Generator_UserColumnName="Contact" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

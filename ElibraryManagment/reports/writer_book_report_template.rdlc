@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix2">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.43279in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.58529in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.10987in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.74204in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.36458in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox45">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Writer Personal Information</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox45</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>5</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox46">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Writer Name:</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox46</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>2</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox25">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=First(Fields!Writername.Value, "writerds")</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox25</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>3</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox47">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Contact:</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox47</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>2</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox28">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=First(Fields!Contact.Value, "writerds")</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox28</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>3</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox48">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Email:</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox48</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>2</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox22">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=First(Fields!Email.Value, "writerds")</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox22</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>3</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox49">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Address:</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox49</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>2</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox17">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=First(Fields!Address.Value, "writerds")</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox17</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>3</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox50">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox50</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox42">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox42</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox43">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox43</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox44">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox44</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox77">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox77</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox51">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox51</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox33">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Writer Book Status</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox33</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>3</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox78">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox78</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.09375in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox52">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox52</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox39">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox39</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox40">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox40</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox41">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox41</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox79">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox79</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox66">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>SL#</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox66</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Silver</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>2</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox71">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Book Name</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox71</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Silver</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox69">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Category</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox69</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Silver</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox80">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Price</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox80</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Silver</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox54">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=RowNumber("writerds")</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox54</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>2</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Bookname">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Bookname.Value</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Bookname</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Category">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Category.Value</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Category</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Price">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Price.Value</Value>
+                              <Style>
+                                <FontFamily>Berlin Sans FB</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Price</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>writerds</DataSetName>
+        <Top>0.13417in</Top>
+        <Height>2.45833in</Height>
+        <Width>7.87in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>2.5925in</Height>
+    <Style />
+  </Body>
+  <Width>7.87in</Width>
+  <Page>
+    <PageHeader>
+      <Height>1.01389in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox85">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>E-Library Managment System</Value>
+                  <Style>
+                    <FontFamily>Berlin Sans FB</FontFamily>
+                    <FontSize>14pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>29, Baniatila, Station Road, Chattogram</Value>
+                  <Style>
+                    <FontFamily>Berlin Sans FB</FontFamily>
+                    <FontSize>11pt</FontSize>
+                    <FontWeight>Normal</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox85</rd:DefaultName>
+          <Left>1.01808in</Left>
+          <Height>0.95833in</Height>
+          <Width>6.85192in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Image Name="Image1">
+          <Source>Embedded</Source>
+          <Value>loginimg</Value>
+          <Sizing>FitProportional</Sizing>
+          <Height>0.95833in</Height>
+          <Width>0.91862in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <PageFooter>
+      <Height>1in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox82">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Note: This is a system generated copy. Hence requires no signature</Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>Tw Cen MT</FontFamily>
+                    <FontWeight>Normal</FontWeight>
+                    <TextDecoration>None</TextDecoration>
+                    <Color>#000000</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox82</rd:DefaultName>
+          <Top>0.40625in</Top>
+          <Left>0.24875in</Left>
+          <Height>0.25in</Height>
+          <Width>3.87921in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox84">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Globals!ExecutionTime</Value>
+                  <Style>
+                    <FontFamily>tw Cen MT</FontFamily>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox84</rd:DefaultName>
+          <Top>0.44792in</Top>
+          <Left>6.30083in</Left>
+          <Height>0.20833in</Height>
+          <Width>1.45833in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <PageHeight>11.69in</PageHeight>
+    <PageWidth>8.27in</PageWidth>
+    <LeftMargin>0.2in</LeftMargin>
+    <RightMargin>0.2in</RightMargin>
+    <TopMargin>0.2in</TopMargin>
+    <BottomMargin>0.2in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Bookdataset">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>36135db8-9048-4c57-8b0c-476079fb7ac8</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="writerds">
+      <Query>
+        <DataSourceName>Bookdataset</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Bookid">
+          <DataField>Bookid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Bookname">
+          <DataField>Bookname</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Price">
+          <DataField>Price</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Category">
+          <DataField>Category</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Writername">
+          <DataField>Writername</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Contact">
+          <DataField>Contact</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Email">
+          <DataField>Email</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Address">
+          <DataField>Address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>Bookdataset</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\ALIF\Documents\Visual Studio 2017\Projects\ElibraryManagment\ElibraryManagment\datasets\Bookdataset.xsd</rd:SchemaPath>
+        <rd:TableName>Book_info</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="loginimg">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>a30c4336-82b5-4a6b-9669-bad270d2f03d</rd:ReportID>
+</Report>

@@ -76,10 +76,13 @@
                             <a class="nav-link" href="<%=Page.ResolveUrl("~/bookInfo.aspx") %>">Book Info</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<%=Page.ResolveUrl("~/writerInfo.aspx") %>"">Writer Info</a>
+                            <a class="nav-link" href="<%=Page.ResolveUrl("~/writerInfo.aspx") %>">Writer Info</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<%=Page.ResolveUrl("~/viewBook.aspx") %>"">View Books</a>
+                            <a class="nav-link" href="<%=Page.ResolveUrl("~/viewBook.aspx") %>">View Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<%=Page.ResolveUrl("~/author_book_info.aspx") %>">Books by Author</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
